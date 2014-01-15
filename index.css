@@ -13,12 +13,14 @@ p {
   background-color:yellow;
   text-align: center;
   margin: 100px;
-  webkit-linear-gradient
 }
 
 .benpic:hover {
   border-style: solid;
-  padding: 20px;
+  padding: 200px;
+  background-image: url(https://1.gravatar.com/avatar/4225267fdbfb5b5df86f8991f28b4554?d=https%3A%2F%2Fidenticons.github.com%2Fbd2f92aaca2e3e402d6af4a34914186d.png&r=x&s=400);
+  -webkit-transform: rotate3d(5, 10, 3, 180deg);
+  -webkit-transition: 5s;
 }
 
 .hl {
@@ -30,10 +32,4 @@ p {
 .hl:hover {
   background-color: yellow;
   margin: 30px;
-}
-
-.benpic:hover {
-  -webkit-transform: rotate3d(5, 10, 3, 180deg);
-  -webkit-transition: 5s;
-
 }
