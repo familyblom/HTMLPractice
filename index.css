@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-size:14pt;
+  font-weight: bold;
+}
+
+.footer {
+  border: solid;
+  border-color: pink;
+  background-color:yellow;
+  text-align: center;
+  margin: 100px;
+  webkit-linear-gradient
+}
+
+.benpic:hover {
+  border-style: solid;
+  padding: 20px;
+}
+
+.hl {
+  border: dotted;
+  background-color: red;
+
+}
+
+.hl:hover {
+  background-color: yellow;
+  margin: 30px;
+}
+
+.benpic:hover {
+  -webkit-transform: rotate3d(5, 10, 3, 180deg);
+  -webkit-transition: 5s;
+
+}
